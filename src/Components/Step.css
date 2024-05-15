@@ -1,0 +1,183 @@
+.Step {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.files-card {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.navbar button {
+    border: none;
+    background: none;
+}
+
+.navbar span {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar span img {
+    width: 30px;
+    height: 30px;
+}
+
+.middle-card {
+    width: 100%;
+    height: 83%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.bottom-cardst {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.bottom-cardst a {
+    color: rgb(138, 138, 138);
+    font-size: 22px;
+}
+
+.bottom-cardst span {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.download-card {
+    width: 25%;
+    height: 55%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.download-card button {
+    background: none;
+    border: none;
+}
+
+.download-card img {
+    width: 30%;
+    height: 30%;
+}
+
+.btns {
+    width: 20%;
+    height: 10%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btns button {
+    width: 24%;
+    height: 100%;
+    border: none;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btns button img {
+    width: 60%;
+    height: 60%;
+}
+
+.btn {
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button {
+    width: 40%;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 27, 27);
+    font-size: 22px;
+    color: #fff;
+}
+
+
+
+.img-card {
+    width: 35%;
+    height: 70%;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-card  img{
+    width: 80%;
+    height: 65%;
+}
+
+.img-card h2{
+    font-size: 28px;
+}
+
+.img-card p{
+    font-size: 14px;
+    color: rgb(177, 177, 177);
+    text-align: center;
+}
+
+.img-card button {
+    width: 25%;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+
+    font-size: 20px;
+    color: #fff;
+}

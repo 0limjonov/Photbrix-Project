@@ -1,0 +1,131 @@
+.navbarnd-card {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    backdrop-filter: blur(20px);
+}
+
+.popup-menu {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: none;
+    padding: 2%;
+}
+.popup-menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbarnd-card button {
+    border: none;
+    background: none;
+
+    font-size: 22px;
+}
+
+.navbarnd-card span {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbarnd-card img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.footernd {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.footernd a {
+    color: rgb(138, 138, 138);
+    font-size: 22px;
+}
+
+.footernd span {
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.header-controls {
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    gap: 5%;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 0;
+}
+
+.header-controls img {
+    width: 50px;
+    height: 50px;
+}
+
+.icons{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 60px;
+}
+
+
+
+
+
+
+
+.icons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+}
+
+.app-controls {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+
+    font-size: 18px;
+}
+
+.app-controls img{
+    width: 25px;
+    height: 25px;
+}
+
+.controls-item{
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}

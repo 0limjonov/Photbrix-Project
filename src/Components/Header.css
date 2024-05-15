@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Header {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+    padding-top: 5%;
+}
+
+.bottom-card {
+    width: 70%;
+    height: 100px;
+    background-color: #e0dede;
+    position: absolute;
+    bottom: -130px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 90px;
+}
+
+.bottom-card img{
+    width: 30px;
+    height: 30px;
+}
+
+.bottom-card span{
+display: flex;
+align-items: center;
+gap: 20px;
+font-size: 22px;
+color: black;
+font-weight: 800;
+}
+
+.left-card {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.left-card span {
+    position: absolute;
+    right: -30px;
+    bottom: 200px;
+    font-size: 18px;
+    color: #cdb9b9;
+}
+
+
+
+.left-card h2 {
+    font-size: 62px;
+}
+
+.left-card p {
+    font-size: 22px;
+    color: rgb(135, 132, 128);
+    padding-top: 3%;
+}
+
+.left-card button {
+    width: 180px;
+    height: 70px;
+    border-radius: 100px;
+    margin-top: 10%;
+    border: none;
+    background-color: rgb(244, 111, 34);
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+}
+
+.left-card button a{
+    text-decoration: none;
+    color: rgb(0, 0, 1);
+}
+
+.left-card img {
+    position: absolute;
+    top: 57px;
+    left: 50px;
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.right-card {
+    position: relative;
+    width: 25%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.detal1 {
+    width: 100px !important;
+    height: 100px !important;
+    position: absolute;
+    bottom: 10px;
+    right: -60px;
+}
+
+.detal2 {
+    position: absolute;
+    bottom: -65px;
+    left: 40px;
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.detal3 {
+    position: absolute;
+    right: -80px;
+    top: -50px;
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.right-card img {
+    width: 100%;
+    height: 100%;
+}

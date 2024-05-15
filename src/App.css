@@ -1,0 +1,38 @@
+.right-image {
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    top: 1800px;
+
+}
+
+.right-image img:nth-child(1) {
+    position: absolute;
+    right: 0;
+}
+
+.right-image img:nth-child(2) {
+    position: absolute;
+    right: 0;
+    top: 170px;
+}
+
+.left-image{
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 2200px;
+}
+
+.left-image img:nth-child(1){
+    position: absolute;
+    left: 0;
+}
+
+.left-image img:nth-child(2) {
+    position: absolute;
+    left: 0;
+    top: 180px;
+}
